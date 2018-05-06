@@ -10,7 +10,7 @@ import { HomeService } from '../home-service.service';
 })
 export class HomeComponent implements OnInit {
 
-  private greeting: Greeting;
+  greeting: Greeting;
  
   constructor(private router: Router, private homeService: HomeService) {
     this.greeting = { id: 0, content: ""};
